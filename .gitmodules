@@ -1,0 +1,12 @@
+[submodule "pepper_robot"]
+	path = pepper_robot
+	url = https://github.com/ros-naoqi/pepper_robot
+[submodule "src/pepper_robot"]
+	path = src/pepper_robot
+	url = https://github.com/ros-naoqi/pepper_robot
+[submodule "src/naoqi_bridge"]
+	path = src/naoqi_bridge
+	url = https://github.com/ros-naoqi/naoqi_bridge
+[submodule "src/naoqi_bridge_msgs"]
+	path = src/naoqi_bridge_msgs
+	url = https://github.com/ros-naoqi/naoqi_bridge_msgs
