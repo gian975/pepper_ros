@@ -1,0 +1,8 @@
+prefix=/home/mivia/CognitiveRobotics/pepper_ros/install
+
+Name: camera_controller
+Description: Description of camera_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

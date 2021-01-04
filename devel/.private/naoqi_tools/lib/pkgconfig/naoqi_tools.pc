@@ -1,0 +1,8 @@
+prefix=/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_tools
+
+Name: naoqi_tools
+Description: Description of naoqi_tools
+Version: 0.5.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

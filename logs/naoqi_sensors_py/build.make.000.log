@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target naoqi_sensors_py_gencfg[0m
+[35m[1mScanning dependencies of target octomap_python[0m
+[ 25%] [34m[1mGenerating dynamic reconfigure files from cfg/NaoqiCamera.cfg: /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_sensors_py/include/naoqi_sensors_py/NaoqiCameraConfig.h /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors_py/cfg/NaoqiCameraConfig.py[0m
+[ 50%] [34m[1mGenerating dynamic reconfigure files from cfg/NaoqiMicrophone.cfg: /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_sensors_py/include/naoqi_sensors_py/NaoqiMicrophoneConfig.h /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors_py/cfg/NaoqiMicrophoneConfig.py[0m
+[ 75%] [32mBuilding CXX object src/python_boost/CMakeFiles/octomap_python.dir/octomap_python.cpp.o[0m
+Generating reconfiguration files for NaoqiMicrophone in naoqimicrophone
+Wrote header file in /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_sensors_py/include/naoqi_sensors_py/NaoqiMicrophoneConfig.h
+Generating reconfiguration files for NaoqiCamera in naoqicamera
+Wrote header file in /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_sensors_py/include/naoqi_sensors_py/NaoqiCameraConfig.h
+[ 75%] Built target naoqi_sensors_py_gencfg
+[100%] [32m[1mLinking CXX shared library /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_sensors_py/lib/python2.7/dist-packages/naoqi_sensors_py/boost/octomap_python.so[0m
+[100%] Built target octomap_python

@@ -1,0 +1,1 @@
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_apps/lib/pkgconfig/naoqi_apps.pc

@@ -1,0 +1,4 @@
+Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/python2.7/dist-packages/naoqi_tools/__init__.py
+Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/pkgconfig/naoqi_tools.pc
+Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/share/naoqi_tools/cmake/naoqi_toolsConfig.cmake
+Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/share/naoqi_tools/cmake/naoqi_toolsConfig-version.cmake

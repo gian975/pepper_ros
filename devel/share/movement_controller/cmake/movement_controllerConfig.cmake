@@ -1,0 +1,1 @@
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/movement_controller/share/movement_controller/cmake/movement_controllerConfig.cmake

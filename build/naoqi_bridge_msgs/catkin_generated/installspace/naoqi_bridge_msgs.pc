@@ -1,0 +1,8 @@
+prefix=/home/mivia/CognitiveRobotics/pepper_ros/install
+
+Name: naoqi_bridge_msgs
+Description: Description of naoqi_bridge_msgs
+Version: 0.0.8
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: genmsg message_runtime actionlib_msgs sensor_msgs nav_msgs trajectory_msgs std_msgs geometry_msgs

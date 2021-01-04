@@ -1,0 +1,8 @@
+prefix=/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv
+
+Name: take_pic_srv
+Description: Description of take_pic_srv
+Version: 0.0.0
+Cflags: -I/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/include
+Libs: -L${prefix}/lib 
+Requires: 

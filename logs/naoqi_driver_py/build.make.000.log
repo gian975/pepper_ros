@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target naoqi_driver_py_gencfg[0m
+[100%] [34m[1mGenerating dynamic reconfigure files from cfg/NaoqiSpeech.cfg: /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_driver_py/include/naoqi_driver_py/NaoqiSpeechConfig.h /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_driver_py/lib/python2.7/dist-packages/naoqi_driver_py/cfg/NaoqiSpeechConfig.py[0m
+Generating reconfiguration files for NaoqiSpeech in naoqi_driver
+Wrote header file in /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_driver_py/include/naoqi_driver_py/NaoqiSpeechConfig.h
+[100%] Built target naoqi_driver_py_gencfg

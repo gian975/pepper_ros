@@ -1,0 +1,1 @@
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/move_srv/share/roseus/ros/move_srv/srv/Move.l

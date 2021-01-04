@@ -1,0 +1,22 @@
+take_pic_srv
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/cmake.lock /home/mivia/CognitiveRobotics/pepper_ros/devel/./cmake.lock
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/lib/python2.7/dist-packages/take_pic_srv/__init__.py /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/python2.7/dist-packages/take_pic_srv/__init__.py
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/lib/python2.7/dist-packages/take_pic_srv/srv/_TakePic.py /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/python2.7/dist-packages/take_pic_srv/srv/_TakePic.py
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/lib/python2.7/dist-packages/take_pic_srv/srv/__init__.py /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/python2.7/dist-packages/take_pic_srv/srv/__init__.py
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/lib/pkgconfig/take_pic_srv.pc /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/pkgconfig/take_pic_srv.pc
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/include/take_pic_srv/TakePicRequest.h /home/mivia/CognitiveRobotics/pepper_ros/devel/include/take_pic_srv/TakePicRequest.h
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/include/take_pic_srv/TakePicResponse.h /home/mivia/CognitiveRobotics/pepper_ros/devel/include/take_pic_srv/TakePicResponse.h
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/include/take_pic_srv/TakePic.h /home/mivia/CognitiveRobotics/pepper_ros/devel/include/take_pic_srv/TakePic.h
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/gennodejs/ros/take_pic_srv/_index.js /home/mivia/CognitiveRobotics/pepper_ros/devel/share/gennodejs/ros/take_pic_srv/_index.js
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/gennodejs/ros/take_pic_srv/srv/_index.js /home/mivia/CognitiveRobotics/pepper_ros/devel/share/gennodejs/ros/take_pic_srv/srv/_index.js
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/gennodejs/ros/take_pic_srv/srv/TakePic.js /home/mivia/CognitiveRobotics/pepper_ros/devel/share/gennodejs/ros/take_pic_srv/srv/TakePic.js
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/common-lisp/ros/take_pic_srv/srv/_package_TakePic.lisp /home/mivia/CognitiveRobotics/pepper_ros/devel/share/common-lisp/ros/take_pic_srv/srv/_package_TakePic.lisp
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/common-lisp/ros/take_pic_srv/srv/_package.lisp /home/mivia/CognitiveRobotics/pepper_ros/devel/share/common-lisp/ros/take_pic_srv/srv/_package.lisp
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/common-lisp/ros/take_pic_srv/srv/take_pic_srv-srv.asd /home/mivia/CognitiveRobotics/pepper_ros/devel/share/common-lisp/ros/take_pic_srv/srv/take_pic_srv-srv.asd
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/common-lisp/ros/take_pic_srv/srv/TakePic.lisp /home/mivia/CognitiveRobotics/pepper_ros/devel/share/common-lisp/ros/take_pic_srv/srv/TakePic.lisp
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/roseus/ros/take_pic_srv/manifest.l /home/mivia/CognitiveRobotics/pepper_ros/devel/share/roseus/ros/take_pic_srv/manifest.l
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/roseus/ros/take_pic_srv/srv/TakePic.l /home/mivia/CognitiveRobotics/pepper_ros/devel/share/roseus/ros/take_pic_srv/srv/TakePic.l
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/take_pic_srv/cmake/take_pic_srvConfig-version.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/take_pic_srv/cmake/take_pic_srvConfig-version.cmake
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/take_pic_srv/cmake/take_pic_srv-msg-extras.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/take_pic_srv/cmake/take_pic_srv-msg-extras.cmake
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/take_pic_srv/cmake/take_pic_srv-msg-paths.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/take_pic_srv/cmake/take_pic_srv-msg-paths.cmake
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/take_pic_srv/cmake/take_pic_srvConfig.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/take_pic_srv/cmake/take_pic_srvConfig.cmake

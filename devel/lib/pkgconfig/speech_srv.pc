@@ -1,0 +1,1 @@
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/speech_srv/lib/pkgconfig/speech_srv.pc

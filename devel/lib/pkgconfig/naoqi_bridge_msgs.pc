@@ -1,0 +1,1 @@
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_bridge_msgs/lib/pkgconfig/naoqi_bridge_msgs.pc

@@ -1,0 +1,5 @@
+detector_controller
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detector_controller/cmake.lock /home/mivia/CognitiveRobotics/pepper_ros/devel/./cmake.lock
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detector_controller/lib/pkgconfig/detector_controller.pc /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/pkgconfig/detector_controller.pc
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detector_controller/share/detector_controller/cmake/detector_controllerConfig.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/detector_controller/cmake/detector_controllerConfig.cmake
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detector_controller/share/detector_controller/cmake/detector_controllerConfig-version.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/detector_controller/cmake/detector_controllerConfig-version.cmake

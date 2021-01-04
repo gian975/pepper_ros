@@ -1,0 +1,6 @@
+devel_space: /home/mivia/CognitiveRobotics/pepper_ros/devel
+install: false
+install_space: /home/mivia/CognitiveRobotics/pepper_ros/install
+profile: default
+source_space: /home/mivia/CognitiveRobotics/pepper_ros/src
+workspace: /home/mivia/CognitiveRobotics/pepper_ros

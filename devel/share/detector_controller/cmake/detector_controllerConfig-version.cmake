@@ -1,0 +1,1 @@
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detector_controller/share/detector_controller/cmake/detector_controllerConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_bridge_msgs/share/roseus/ros/naoqi_bridge_msgs/srv/SetString.l

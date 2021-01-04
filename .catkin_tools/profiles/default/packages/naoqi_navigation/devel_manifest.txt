@@ -1,0 +1,5 @@
+naoqi_bridge/naoqi_navigation/python
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_navigation/cmake.lock /home/mivia/CognitiveRobotics/pepper_ros/devel/./cmake.lock
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_navigation/lib/pkgconfig/naoqi_navigation.pc /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/pkgconfig/naoqi_navigation.pc
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_navigation/share/naoqi_navigation/cmake/naoqi_navigationConfig.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/naoqi_navigation/cmake/naoqi_navigationConfig.cmake
+/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_navigation/share/naoqi_navigation/cmake/naoqi_navigationConfig-version.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/naoqi_navigation/cmake/naoqi_navigationConfig-version.cmake
