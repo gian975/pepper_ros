@@ -1,8 +1,0 @@
-prefix=/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/movement_controller
-
-Name: movement_controller
-Description: Description of movement_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

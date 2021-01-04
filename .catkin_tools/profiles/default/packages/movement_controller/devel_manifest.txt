@@ -1,5 +1,0 @@
-movement_controller
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/movement_controller/cmake.lock /home/gianluca/Desktop/CogRob/pepper_ros/devel/./cmake.lock
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/movement_controller/share/movement_controller/cmake/movement_controllerConfig-version.cmake /home/gianluca/Desktop/CogRob/pepper_ros/devel/share/movement_controller/cmake/movement_controllerConfig-version.cmake
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/movement_controller/share/movement_controller/cmake/movement_controllerConfig.cmake /home/gianluca/Desktop/CogRob/pepper_ros/devel/share/movement_controller/cmake/movement_controllerConfig.cmake
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/movement_controller/lib/pkgconfig/movement_controller.pc /home/gianluca/Desktop/CogRob/pepper_ros/devel/lib/pkgconfig/movement_controller.pc

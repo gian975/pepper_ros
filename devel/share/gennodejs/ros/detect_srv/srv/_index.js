@@ -1,1 +1,0 @@
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/share/gennodejs/ros/detect_srv/srv/_index.js

@@ -1,1 +1,0 @@
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/take_pic_srv/lib/pkgconfig/take_pic_srv.pc

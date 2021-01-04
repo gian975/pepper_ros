@@ -1,1 +1,0 @@
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/move_srv/share/common-lisp/ros/move_srv/srv/_package_Move.lisp

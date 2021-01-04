@@ -1,1 +1,0 @@
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/speech_srv/lib/python2.7/dist-packages/speech_srv/srv/_Speech.py

@@ -1,1 +1,0 @@
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/speech_srv/include/speech_srv/SpeechResponse.h

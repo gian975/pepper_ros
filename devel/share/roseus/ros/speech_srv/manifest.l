@@ -1,1 +1,0 @@
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/speech_srv/share/roseus/ros/speech_srv/manifest.l

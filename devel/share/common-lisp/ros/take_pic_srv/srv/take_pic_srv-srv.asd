@@ -1,1 +1,0 @@
-/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/take_pic_srv/share/common-lisp/ros/take_pic_srv/srv/take_pic_srv-srv.asd

@@ -1,8 +1,0 @@
-prefix=/home/gianluca/Desktop/CogRob/pepper_ros/install
-
-Name: speech_controller
-Description: Description of speech_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
