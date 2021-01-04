@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/pepper_description/share/pepper_description/cmake/pepper_descriptionConfig.cmake

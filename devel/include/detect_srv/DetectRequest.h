@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/include/detect_srv/DetectRequest.h

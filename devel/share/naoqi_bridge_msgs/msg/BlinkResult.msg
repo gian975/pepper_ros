@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/naoqi_bridge_msgs/share/naoqi_bridge_msgs/msg/BlinkResult.msg

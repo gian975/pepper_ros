@@ -1,0 +1,5 @@
+naoqi_bridge/naoqi_apps
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/naoqi_apps/cmake.lock /home/gianluca/Desktop/CogRob/pepper_ros/devel/./cmake.lock
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/naoqi_apps/share/naoqi_apps/cmake/naoqi_appsConfig-version.cmake /home/gianluca/Desktop/CogRob/pepper_ros/devel/share/naoqi_apps/cmake/naoqi_appsConfig-version.cmake
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/naoqi_apps/share/naoqi_apps/cmake/naoqi_appsConfig.cmake /home/gianluca/Desktop/CogRob/pepper_ros/devel/share/naoqi_apps/cmake/naoqi_appsConfig.cmake
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/naoqi_apps/lib/pkgconfig/naoqi_apps.pc /home/gianluca/Desktop/CogRob/pepper_ros/devel/lib/pkgconfig/naoqi_apps.pc

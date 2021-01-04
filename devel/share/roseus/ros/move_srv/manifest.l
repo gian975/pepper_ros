@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/move_srv/share/roseus/ros/move_srv/manifest.l

@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/pepper_description/lib/pkgconfig/pepper_description.pc

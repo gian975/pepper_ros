@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/share/roseus/ros/detect_srv/manifest.l

@@ -1,0 +1,15 @@
+# Hashes of file build rules.
+175aa1b71dc67f66d675eed50e18f81e /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/take_pic_srv/include/take_pic_srv/TakePic.h
+91c95a580fa07005598b3ae86cfca905 /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/take_pic_srv/lib/python2.7/dist-packages/take_pic_srv/srv/_TakePic.py
+b3b6631290983bcdf6b4a3bf7cdc3124 /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/take_pic_srv/lib/python2.7/dist-packages/take_pic_srv/srv/__init__.py
+abfdfcaeb4af3c195522966e28ad8de8 /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/take_pic_srv/share/common-lisp/ros/take_pic_srv/srv/TakePic.lisp
+03d481171f4823ef83bb093ecf04ece1 /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/take_pic_srv/share/gennodejs/ros/take_pic_srv/srv/TakePic.js
+cfdef968d71b7068009025872f948549 /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/take_pic_srv/share/roseus/ros/take_pic_srv/manifest.l
+c557f55d26c7415c7349b6e73d5e3080 /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/take_pic_srv/share/roseus/ros/take_pic_srv/srv/TakePic.l
+78c6116c38505e37e90c035b29519af8 CMakeFiles/_take_pic_srv_generate_messages_check_deps_TakePic
+a2464779b87533e282e8250a67ac9de4 CMakeFiles/clean_test_results
+0c6c1362dfd09812f7b0652e001a767a CMakeFiles/take_pic_srv_generate_messages_cpp
+0c6c1362dfd09812f7b0652e001a767a CMakeFiles/take_pic_srv_generate_messages_eus
+0c6c1362dfd09812f7b0652e001a767a CMakeFiles/take_pic_srv_generate_messages_lisp
+0c6c1362dfd09812f7b0652e001a767a CMakeFiles/take_pic_srv_generate_messages_nodejs
+0c6c1362dfd09812f7b0652e001a767a CMakeFiles/take_pic_srv_generate_messages_py

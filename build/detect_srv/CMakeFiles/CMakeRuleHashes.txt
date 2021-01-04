@@ -1,0 +1,15 @@
+# Hashes of file build rules.
+8d7fa0974e8e80c7bfd52d565783e5f6 /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/include/detect_srv/Detect.h
+12d107072552516318a0d51fc6177fe3 /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/lib/python2.7/dist-packages/detect_srv/srv/_Detect.py
+1e8ca9650ad554261506dc803a33205e /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/lib/python2.7/dist-packages/detect_srv/srv/__init__.py
+dfd22398cb5b13f42b2326c5f9052c0e /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/share/common-lisp/ros/detect_srv/srv/Detect.lisp
+3476cbf1ab2e40bf1fabd85c46daa6be /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/share/gennodejs/ros/detect_srv/srv/Detect.js
+adbca39df79796e8dc9c9c06092635ae /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/share/roseus/ros/detect_srv/manifest.l
+ec52387a54fb991bc8721e0abae39591 /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detect_srv/share/roseus/ros/detect_srv/srv/Detect.l
+3ad6835be2256f81138a4a8358897dcc CMakeFiles/_detect_srv_generate_messages_check_deps_Detect
+7a88a6d1f649ab4e5d812662de8faf29 CMakeFiles/clean_test_results
+911c32202e5d3afeeebf8423dd3cc9c0 CMakeFiles/detect_srv_generate_messages_cpp
+911c32202e5d3afeeebf8423dd3cc9c0 CMakeFiles/detect_srv_generate_messages_eus
+911c32202e5d3afeeebf8423dd3cc9c0 CMakeFiles/detect_srv_generate_messages_lisp
+911c32202e5d3afeeebf8423dd3cc9c0 CMakeFiles/detect_srv_generate_messages_nodejs
+911c32202e5d3afeeebf8423dd3cc9c0 CMakeFiles/detect_srv_generate_messages_py

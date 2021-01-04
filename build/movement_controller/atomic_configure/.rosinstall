@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/movement_controller/setup.sh

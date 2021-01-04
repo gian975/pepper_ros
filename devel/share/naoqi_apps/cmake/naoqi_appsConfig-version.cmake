@@ -1,0 +1,1 @@
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/naoqi_apps/share/naoqi_apps/cmake/naoqi_appsConfig-version.cmake

@@ -1,0 +1,5 @@
+detector_controller
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detector_controller/cmake.lock /home/gianluca/Desktop/CogRob/pepper_ros/devel/./cmake.lock
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detector_controller/share/detector_controller/cmake/detector_controllerConfig.cmake /home/gianluca/Desktop/CogRob/pepper_ros/devel/share/detector_controller/cmake/detector_controllerConfig.cmake
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detector_controller/share/detector_controller/cmake/detector_controllerConfig-version.cmake /home/gianluca/Desktop/CogRob/pepper_ros/devel/share/detector_controller/cmake/detector_controllerConfig-version.cmake
+/home/gianluca/Desktop/CogRob/pepper_ros/devel/.private/detector_controller/lib/pkgconfig/detector_controller.pc /home/gianluca/Desktop/CogRob/pepper_ros/devel/lib/pkgconfig/detector_controller.pc
