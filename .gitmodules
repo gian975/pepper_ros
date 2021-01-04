@@ -12,4 +12,4 @@
 	url = https://github.com/ros-naoqi/naoqi_bridge_msgs
 [submodule "src/vision_msgs"]
 	path = src/vision_msgs
-	url = https://github.com/ros-perception/vision_msgs/tree/melodic-devel
+	url = https://github.com/ros-perception/vision_msgs
