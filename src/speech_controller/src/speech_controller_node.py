@@ -8,9 +8,9 @@ class NaoquiAnimatedSpeech(NaoqiNode):
     Server for handling the speech
     """
     def __init__(self):
-        NaoqiNode.__init__(self, 'animated_speech')
-        self.pip = "10.0.1.230"
-        self.pport = 9559
+        NaoqiNode.__init__(self, pip ="10.0.1.230", pport = 9559, 'animated_speech')
+        self.pip = pip
+        self.pport = pport
         self.connectNaoQi()
 
     def handleSayServ(self, req):

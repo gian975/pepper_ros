@@ -15,8 +15,8 @@ class NaoqiPhotoCapture(NaoqiNode):
     """
     def __init__(self):
         
-        NaoqiNode.__init__(self, "naoqi_photoCapture")
-        self.topic = "/pepper_robot/camera/front/camera/image_raw"
+        NaoqiNode.__init__(self, topic = "/pepper_robot/camera/front/camera/image_raw", "naoqi_photoCapture")
+        self.topic = topic
         self.takePicServ = rospy.Service("take_pic", TakePic, self.handleTakePicSrv)
 
 

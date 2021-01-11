@@ -11,7 +11,6 @@ import cv2
 import tensorflow as tf
 import numpy as np
 
-
 def takePicture_getDetection(position, detections):
     """Function that performs requests for taking images and performing detection on that image
 
@@ -21,6 +20,7 @@ def takePicture_getDetection(position, detections):
         detections ([dict]): dictionary in which store the detections 
     """
     # PICTURE
+    # Picture Request to camera_controller, waiting for service and Response from camera_controller
     pic_request = TakePicRequest()
     rospy.wait_for_service('take_pic')
     pic_response = take_picture(pic_request)
@@ -34,9 +34,6 @@ def takePicture_getDetection(position, detections):
         rospy.wait_for_service('detect_pic')
         detect_response = detect_picture(detect_request)
         rospy.loginfo("Detection Finished!")
-
-        # for i in range(len(detect_response.objects)):
-        #    rospy.loginfo(detect_response.objects[i].data)
 
         detections[position] = detect_response.objects
     else:
