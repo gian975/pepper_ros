@@ -73,7 +73,6 @@ def compose_msg(detections):
     return to_say
 
 rospy.init_node("Pepper_test")
-
 # Servers' Initialization:
 move = rospy.ServiceProxy('move', Move)
 take_picture = rospy.ServiceProxy('take_pic', TakePic)

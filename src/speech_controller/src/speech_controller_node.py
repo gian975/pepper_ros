@@ -7,8 +7,8 @@ class NaoquiAnimatedSpeech(NaoqiNode):
     """
     Server for handling the speech
     """
-    def __init__(self):
-        NaoqiNode.__init__(self, pip ="10.0.1.230", pport = 9559, 'animated_speech')
+    def __init__(self, pip, pport):
+        NaoqiNode.__init__(self, pip, pport, 'animated_speech')
         self.pip = pip
         self.pport = pport
         self.connectNaoQi()
@@ -31,5 +31,5 @@ class NaoquiAnimatedSpeech(NaoqiNode):
         self.s = rospy.Service('speech', Speech, self.handleSayServ)
 
 if __name__ == "__main__":
-    pub = NaoquiAnimatedSpeech()
+    pub = NaoquiAnimatedSpeech(rospy.get_param('nao_ip'), rospy.get_param('nao_port'))
     rospy.spin()

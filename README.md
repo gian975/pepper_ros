@@ -2,7 +2,7 @@
 
 This project regards the robot Pepper: in particular, it consists of moving pepper head in three different directions (right, front, left), taking a picture for each direction, performing the task of object detection on these pictures and, finally, performing the task of text to speach on the objects detected.
 
-## GRUPPO 15:
+## GROUP 15:
 
 - Apicella Giulia
 - D'Amore Gianluca
@@ -13,28 +13,47 @@ This project regards the robot Pepper: in particular, it consists of moving pepp
 
 ### Setup
 
-Open a terminal ad perform these operations.
+Open a terminal in workspace directory and perform these operations.
 
 ```bash
 cd src
+git clone https://github.com/ros-naoqi/pepper_robot
+git clone https://github.com/ros-naoqi/naoqi_bridge
+git clone https://github.com/ros-naoqi/naoqi_bridge_msgs
+git clone https://github.com/Kukanani/vision_msgs.git
 D=$(realpath pynaoqi-python2.7-2.5.7.1-linux64)
-cd..
+cd ..
 catkin build take_pic_srv detect_srv speech_srv move_srv
 echo "export PYTHONPATH=\${PYTHONPATH}:$D/lib/python2.7/site-packages" >> devel/setup.bash
 echo "export DYLD_LIBRARY_PATH=\${DYLD_LIBRARY_PATH}:$D/lib" >> devel/setup.bash
 catkin build
 source devel/setup.bash
+
+```
+
+### Pepper bring up
+
+Following commands has to be launched in the previous terminal window.
+nao_ip param depends on Pepper robot real ip. During the simulations, it has been setted as 10.0.1.230.
+
+```bash
+roslaunch pepper_bringup pepper_full_py.launch nao_ip:=10.0.1.230
 ```
 
 ### Launch custom nodes
 
+Following commands has to be launched in a new terminal window, opened in workspace directory.
+
 ```bash
+source devel/setup.bash
 cd src
 cd launch
 roslaunch launcher.launch
 ```
 
 ### Launch client node
+
+Following commands has to be launched in a new terminal window, opened in workspace directory.
 
 ```bash
 source devel/setup.bash
