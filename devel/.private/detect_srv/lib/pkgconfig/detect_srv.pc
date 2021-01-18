@@ -1,8 +1,0 @@
-prefix=/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/detect_srv
-
-Name: detect_srv
-Description: Description of detect_srv
-Version: 0.0.0
-Cflags: -I/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/detect_srv/include
-Libs: -L${prefix}/lib 
-Requires: 
