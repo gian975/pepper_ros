@@ -13,9 +13,9 @@ class NaoqiPhotoCapture(NaoqiNode):
     """ 
     This is a class that represents a server for taking picture from topic attribute. 
     """
-    def __init__(self):
+    def __init__(self, topic = "/pepper_robot/camera/front/camera/image_raw"):
         
-        NaoqiNode.__init__(self, topic = "/pepper_robot/camera/front/camera/image_raw", "naoqi_photoCapture")
+        NaoqiNode.__init__(self, "naoqi_photoCapture")
         self.topic = topic
         self.takePicServ = rospy.Service("take_pic", TakePic, self.handleTakePicSrv)
 

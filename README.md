@@ -63,3 +63,9 @@ cd src
 python pepper_test.py
 
 ```
+
+### Bag File
+
+```bash
+rosbag record --all --duration=5m
+```

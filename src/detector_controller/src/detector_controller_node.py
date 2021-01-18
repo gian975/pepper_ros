@@ -28,18 +28,24 @@ class DetectController:
         """
         rospy.loginfo("Request arrived to DetectController") 
         image = ros_numpy.numpify(req.image)
+        rospy.loginfo(image.shape)
 
         detections = self.detector(image)
         objs = []
-
+        scores = []
+        h,w,_ = image.shape
+        cv2.imshow("Image", image)
+        cv2.waitKey(0)
         for clabel,score,box in zip(detections['detection_classes'], detections['detection_scores'], detections['detection_boxes']):
 
             s = String()
+            size_y = box[2]-box[0]
+            size_x = box[3]-box[1]
 
-            b = [box[0]+(box[2]-box[0])/2, box[1]+(box[3]-box[1])/2, box[2]-box[0], box[3]-box[1]]
+            b = [box[0]+(size_y)/2, box[1]+(size_x)/2, size_y, size_x]
             b[0]-=b[2]/2
             b[1]-=b[3]/2
-            w,h,_ = image.shape
+            
             p1 = (int(b[1]*w+.5), int(b[0]*h+.5))
             p2 = (int((b[3]+b[1])*w+.5), int((b[2]+b[0])*h+.5))
             col = (255,0,0) 
@@ -54,11 +60,16 @@ class DetectController:
             cv2.waitKey(0)
 
             s.data = classmap[clabel]
+            scores.append(score)
             objs.append(s)
 
         rospy.loginfo(objs)
+        rospy.loginfo(scores)
         
         return DetectResponse(objs)
+
+
+    
 
 if __name__ == "__main__":
 
