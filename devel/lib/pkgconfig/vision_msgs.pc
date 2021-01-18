@@ -1,1 +1,0 @@
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/vision_msgs/lib/pkgconfig/vision_msgs.pc

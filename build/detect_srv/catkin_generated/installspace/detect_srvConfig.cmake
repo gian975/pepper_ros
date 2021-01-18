@@ -67,14 +67,14 @@ set(detect_srv_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(detect_srv_SOURCE_PREFIX /home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv)
-  set(detect_srv_DEVEL_PREFIX /home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detect_srv)
+  set(detect_srv_SOURCE_PREFIX /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv)
+  set(detect_srv_DEVEL_PREFIX /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/detect_srv)
   set(detect_srv_INSTALL_PREFIX "")
   set(detect_srv_PREFIX ${detect_srv_DEVEL_PREFIX})
 else()
   set(detect_srv_SOURCE_PREFIX "")
   set(detect_srv_DEVEL_PREFIX "")
-  set(detect_srv_INSTALL_PREFIX /home/mivia/CognitiveRobotics/pepper_ros/install)
+  set(detect_srv_INSTALL_PREFIX /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/install)
   set(detect_srv_PREFIX ${detect_srv_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mivia/CognitiveRobotics/pepper_ros/install/lib;/home/mivia/CognitiveRobotics/pepper_ros/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/install/lib;/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

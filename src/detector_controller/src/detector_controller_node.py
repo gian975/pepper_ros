@@ -48,6 +48,8 @@ class DetectController:
             cv2.putText(image, "%s %.2f" % (classmap[clabel],score), p1, cv2.FONT_HERSHEY_SIMPLEX, 0.8, col, 2)
 
             rospy.loginfo("Printing what Pepper saw ... Press any key to continue")
+
+            # Visualize what Pepper saw
             cv2.imshow('Image', image)
             cv2.waitKey(0)
 

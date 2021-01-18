@@ -1,8 +1,0 @@
-prefix=/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detector_controller
-
-Name: detector_controller
-Description: Description of detector_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

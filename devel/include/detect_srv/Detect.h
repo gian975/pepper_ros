@@ -1,1 +1,0 @@
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detect_srv/include/detect_srv/Detect.h

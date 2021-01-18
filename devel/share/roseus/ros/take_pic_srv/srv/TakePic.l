@@ -1,1 +1,0 @@
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/take_pic_srv/share/roseus/ros/take_pic_srv/srv/TakePic.l

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/camera_controller:$CMAKE_PREFIX_PATH"
-export PWD='/home/mivia/CognitiveRobotics/pepper_ros/build/camera_controller'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/camera_controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/mivia/CognitiveRobotics/pepper_ros/src/camera_controller:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/camera_controller:$CMAKE_PREFIX_PATH"
+export PWD='/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/camera_controller'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/camera_controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/camera_controller:$ROS_PACKAGE_PATH"

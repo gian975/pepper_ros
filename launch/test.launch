@@ -1,0 +1,4 @@
+<launch>
+    <node name = "detect_srv" pkg= "detector_controller" type = "detector_controller_node.py" output ="screen"> </node>
+    <node name = "camera_srv" pkg = "camera_controller" type = "camera_controller_node.py" output = "screen"> </node>
+</launch>

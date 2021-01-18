@@ -1,7 +1,0 @@
-Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/python2.7/dist-packages/pepper_sensors/__init__.py
-Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/pkgconfig/pepper_sensors_py.pc
-Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/share/pepper_sensors_py/cmake/pepper_sensors_pyConfig-version.cmake
-Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/share/pepper_sensors_py/cmake/pepper_sensors_pyConfig.cmake
-Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/bin/cmake.lock
-Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/bin/camera.py
-Symlinking /home/mivia/CognitiveRobotics/pepper_ros/devel/bin/laser.py

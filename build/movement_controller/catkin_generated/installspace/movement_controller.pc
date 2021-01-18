@@ -1,8 +1,0 @@
-prefix=/home/mivia/CognitiveRobotics/pepper_ros/install
-
-Name: movement_controller
-Description: Description of movement_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

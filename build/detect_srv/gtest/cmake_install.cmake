@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mivia/CognitiveRobotics/pepper_ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv/gtest/googlemock/cmake_install.cmake")
+  include("/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

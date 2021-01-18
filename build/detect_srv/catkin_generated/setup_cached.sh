@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detect_srv:$CMAKE_PREFIX_PATH"
-export PWD='/home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detect_srv/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/detect_srv:$CMAKE_PREFIX_PATH"
+export PWD='/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/detect_srv/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv:$ROS_PACKAGE_PATH"

@@ -12,16 +12,16 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in '/home/mivia/CognitiveRobotics/pepper_ros/devel;/opt/ros/melodic'.split(';'):
+    for workspace in '/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel;/opt/ros/melodic'.split(';'):
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/camera_controller/env.sh')
+code = generate_environment_script('/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/camera_controller/env.sh')
 
-output_filename = '/home/mivia/CognitiveRobotics/pepper_ros/build/camera_controller/catkin_generated/setup_cached.sh'
+output_filename = '/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/camera_controller/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

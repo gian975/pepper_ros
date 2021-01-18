@@ -1,4 +1,4 @@
-prefix=/home/mivia/CognitiveRobotics/pepper_ros/install
+prefix=/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

@@ -1,1 +1,0 @@
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/move_srv/share/gennodejs/ros/move_srv/_index.js

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/detect_srv_generate_messages_cpp"
-  "/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detect_srv/include/detect_srv/Detect.h"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/detect_srv/include/detect_srv/Detect.h"
 )
 
 # Per-language clean rules from dependency scanning.

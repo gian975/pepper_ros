@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_srv_generate_messages_cpp"
-  "/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/move_srv/include/move_srv/Move.h"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/move_srv/include/move_srv/Move.h"
 )
 
 # Per-language clean rules from dependency scanning.

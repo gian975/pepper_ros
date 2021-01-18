@@ -1,8 +1,8 @@
-prefix=/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/move_srv
+prefix=/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/move_srv
 
 Name: move_srv
 Description: Description of move_srv
 Version: 0.0.0
-Cflags: -I/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/move_srv/include
+Cflags: -I/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/move_srv/include
 Libs: -L${prefix}/lib 
 Requires: 

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

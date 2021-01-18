@@ -1,5 +1,0 @@
-camera_controller
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/camera_controller/cmake.lock /home/mivia/CognitiveRobotics/pepper_ros/devel/./cmake.lock
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/camera_controller/lib/pkgconfig/camera_controller.pc /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/pkgconfig/camera_controller.pc
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/camera_controller/share/camera_controller/cmake/camera_controllerConfig.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/camera_controller/cmake/camera_controllerConfig.cmake
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/camera_controller/share/camera_controller/cmake/camera_controllerConfig-version.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/camera_controller/cmake/camera_controllerConfig-version.cmake

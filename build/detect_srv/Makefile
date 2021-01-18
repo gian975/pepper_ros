@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv
+CMAKE_SOURCE_DIR = /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv
+CMAKE_BINARY_DIR = /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv/CMakeFiles /home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv/CMakeFiles /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

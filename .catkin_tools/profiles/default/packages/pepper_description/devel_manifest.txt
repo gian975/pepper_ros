@@ -1,5 +1,0 @@
-pepper_robot/pepper_description
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_description/cmake.lock /home/mivia/CognitiveRobotics/pepper_ros/devel/./cmake.lock
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_description/lib/pkgconfig/pepper_description.pc /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/pkgconfig/pepper_description.pc
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_description/share/pepper_description/cmake/pepper_descriptionConfig.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/pepper_description/cmake/pepper_descriptionConfig.cmake
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_description/share/pepper_description/cmake/pepper_descriptionConfig-version.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/pepper_description/cmake/pepper_descriptionConfig-version.cmake

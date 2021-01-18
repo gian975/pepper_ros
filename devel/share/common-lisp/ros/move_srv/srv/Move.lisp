@@ -1,1 +1,0 @@
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/move_srv/share/common-lisp/ros/move_srv/srv/Move.lisp

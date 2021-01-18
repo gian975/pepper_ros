@@ -1,1 +1,0 @@
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/naoqi_driver_py/lib/pkgconfig/naoqi_driver_py.pc

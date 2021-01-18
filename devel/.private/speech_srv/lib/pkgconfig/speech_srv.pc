@@ -1,8 +1,0 @@
-prefix=/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/speech_srv
-
-Name: speech_srv
-Description: Description of speech_srv
-Version: 0.0.0
-Cflags: -I/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/speech_srv/include
-Libs: -L${prefix}/lib 
-Requires: 

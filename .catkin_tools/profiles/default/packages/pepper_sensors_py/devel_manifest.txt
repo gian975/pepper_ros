@@ -1,9 +1,0 @@
-pepper_robot/pepper_sensors_py
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_sensors_py/cmake.lock /home/mivia/CognitiveRobotics/pepper_ros/devel/./cmake.lock
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_sensors_py/lib/python2.7/dist-packages/pepper_sensors/__init__.py /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/python2.7/dist-packages/pepper_sensors/__init__.py
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_sensors_py/lib/pkgconfig/pepper_sensors_py.pc /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/pkgconfig/pepper_sensors_py.pc
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_sensors_py/share/pepper_sensors_py/cmake/pepper_sensors_pyConfig-version.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/pepper_sensors_py/cmake/pepper_sensors_pyConfig-version.cmake
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_sensors_py/share/pepper_sensors_py/cmake/pepper_sensors_pyConfig.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/pepper_sensors_py/cmake/pepper_sensors_pyConfig.cmake
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_sensors_py/bin/cmake.lock /home/mivia/CognitiveRobotics/pepper_ros/devel/bin/cmake.lock
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_sensors_py/bin/camera.py /home/mivia/CognitiveRobotics/pepper_ros/devel/bin/camera.py
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_sensors_py/bin/laser.py /home/mivia/CognitiveRobotics/pepper_ros/devel/bin/laser.py

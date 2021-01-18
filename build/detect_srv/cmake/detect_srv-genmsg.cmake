@@ -17,9 +17,9 @@ add_custom_target(detect_srv_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
 add_custom_target(_detect_srv_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "detect_srv" "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv" "sensor_msgs/Image:std_msgs/String:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "detect_srv" "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv" "sensor_msgs/Image:std_msgs/String:std_msgs/Header"
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_detect_srv_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(detect_srv
-  "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/detect_srv
@@ -49,7 +49,7 @@ add_custom_target(detect_srv_generate_messages_cpp
 add_dependencies(detect_srv_generate_messages detect_srv_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
 add_dependencies(detect_srv_generate_messages_cpp _detect_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS detect_srv_generate_messages_cpp)
 
 ### Generating Services
 _generate_srv_eus(detect_srv
-  "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/detect_srv
@@ -82,7 +82,7 @@ add_custom_target(detect_srv_generate_messages_eus
 add_dependencies(detect_srv_generate_messages detect_srv_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
 add_dependencies(detect_srv_generate_messages_eus _detect_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS detect_srv_generate_messages_eus)
 
 ### Generating Services
 _generate_srv_lisp(detect_srv
-  "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/detect_srv
@@ -115,7 +115,7 @@ add_custom_target(detect_srv_generate_messages_lisp
 add_dependencies(detect_srv_generate_messages detect_srv_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
 add_dependencies(detect_srv_generate_messages_lisp _detect_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS detect_srv_generate_messages_lisp)
 
 ### Generating Services
 _generate_srv_nodejs(detect_srv
-  "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/detect_srv
@@ -148,7 +148,7 @@ add_custom_target(detect_srv_generate_messages_nodejs
 add_dependencies(detect_srv_generate_messages detect_srv_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
 add_dependencies(detect_srv_generate_messages_nodejs _detect_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS detect_srv_generate_messages_nodejs
 
 ### Generating Services
 _generate_srv_py(detect_srv
-  "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/melodic/share/sensor_msgs/cmake/../msg/Image.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/String.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/detect_srv
@@ -181,7 +181,7 @@ add_custom_target(detect_srv_generate_messages_py
 add_dependencies(detect_srv_generate_messages detect_srv_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
+get_filename_component(_filename "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv/srv/Detect.srv" NAME_WE)
 add_dependencies(detect_srv_generate_messages_py _detect_srv_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

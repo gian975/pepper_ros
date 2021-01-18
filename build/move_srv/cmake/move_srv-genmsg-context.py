@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/mivia/CognitiveRobotics/pepper_ros/src/move_srv/srv/Move.srv"
+services_str = "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/move_srv/srv/Move.srv"
 pkg_name = "move_srv"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

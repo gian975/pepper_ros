@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_srv_generate_messages_lisp"
-  "/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/move_srv/share/common-lisp/ros/move_srv/srv/Move.lisp"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/move_srv/share/common-lisp/ros/move_srv/srv/Move.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

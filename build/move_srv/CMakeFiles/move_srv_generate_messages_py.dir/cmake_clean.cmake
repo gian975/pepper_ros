@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_srv_generate_messages_py"
-  "/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/move_srv/lib/python2.7/dist-packages/move_srv/srv/_Move.py"
-  "/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/move_srv/lib/python2.7/dist-packages/move_srv/srv/__init__.py"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/move_srv/lib/python2.7/dist-packages/move_srv/srv/_Move.py"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/move_srv/lib/python2.7/dist-packages/move_srv/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

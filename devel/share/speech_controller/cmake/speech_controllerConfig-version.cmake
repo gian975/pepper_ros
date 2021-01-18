@@ -1,1 +1,0 @@
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/speech_controller/share/speech_controller/cmake/speech_controllerConfig-version.cmake

@@ -1,5 +1,0 @@
-pepper_robot/pepper_bringup
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_bringup/cmake.lock /home/mivia/CognitiveRobotics/pepper_ros/devel/./cmake.lock
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_bringup/lib/pkgconfig/pepper_bringup.pc /home/mivia/CognitiveRobotics/pepper_ros/devel/lib/pkgconfig/pepper_bringup.pc
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_bringup/share/pepper_bringup/cmake/pepper_bringupConfig-version.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/pepper_bringup/cmake/pepper_bringupConfig-version.cmake
-/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/pepper_bringup/share/pepper_bringup/cmake/pepper_bringupConfig.cmake /home/mivia/CognitiveRobotics/pepper_ros/devel/share/pepper_bringup/cmake/pepper_bringupConfig.cmake

@@ -2,7 +2,7 @@
 
 This project regards the robot Pepper: in particular, it consists of moving pepper head in three different directions (right, front, left), taking a picture for each direction, performing the task of object detection on these pictures and, finally, performing the task of text to speach on the objects detected.
 
-## GROUP 15:
+## GROUP 15
 
 - Apicella Giulia
 - D'Amore Gianluca
@@ -30,6 +30,8 @@ catkin build
 source devel/setup.bash
 
 ```
+
+It's possible that it's necessary to add executable permissions to the executable file of nodes.
 
 ### Pepper bring up
 

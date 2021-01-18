@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/detect_srv_generate_messages_nodejs"
-  "/home/mivia/CognitiveRobotics/pepper_ros/devel/.private/detect_srv/share/gennodejs/ros/detect_srv/srv/Detect.js"
+  "/home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/devel/.private/detect_srv/share/gennodejs/ros/detect_srv/srv/Detect.js"
 )
 
 # Per-language clean rules from dependency scanning.

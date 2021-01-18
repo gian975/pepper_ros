@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv
+CMAKE_SOURCE_DIR = /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv
+CMAKE_BINARY_DIR = /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv /home/mivia/CognitiveRobotics/pepper_ros/src/detect_srv /home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv /home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv /home/mivia/CognitiveRobotics/pepper_ros/build/detect_srv/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/src/detect_srv /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv /home/gianluca/Desktop/Università/CogRob/pepper_ros/pepper_ros/build/detect_srv/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 
