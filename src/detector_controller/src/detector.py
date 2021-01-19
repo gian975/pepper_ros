@@ -2,7 +2,6 @@ import cv2
 import tensorflow as tf
 assert(int(tf.__version__.split('.')[0]) >= 2)
 import numpy as np
-import rospy
 class Detector():
     def __init__(self,model_path):
         self.detect_fn = tf.saved_model.load(model_path)

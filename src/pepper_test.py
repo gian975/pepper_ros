@@ -55,76 +55,83 @@ def compose_msg(detections):
 
     to_say = "\\RSPD=65\\I see on the left"
     for i in range(0, len(left)):
-        to_say = to_say + " " + left[i].data
+        to_say = to_say + " " + left[i].data + ","
     if len(left) is 0:
         to_say = to_say + " nothing"
 
     to_say = to_say + ". On the front"
     for i in range(0, len(front)):
-        to_say = to_say + " " + front[i].data
+        to_say = to_say + " " + front[i].data + ","
     if len(front) is 0:
         to_say = to_say + " nothing"
 
     to_say = to_say + ". On the right"
     for i in range(0, len(right)):
-        to_say = to_say + " " + right[i].data
+        to_say = to_say + " " + right[i].data + ","
     if len(right) is 0:
         to_say = to_say + " nothing"
     return to_say
 
-rospy.init_node("Pepper_test")
-# Servers' Initialization:
-move = rospy.ServiceProxy('move', Move)
-take_picture = rospy.ServiceProxy('take_pic', TakePic)
-detect_picture = rospy.ServiceProxy('detect_pic', Detect)
-speech = rospy.ServiceProxy('speech', Speech)
+def move_head(position, move_pitch = 0):
+    """function for moving the head, basing on the position
 
-# Utils Variable:
-move_pitch = 0.4
-detections = {
-    'left': [],
-    'front': [],
-    'right': []
-}
+    Args:
+        position ([String]): position to move the head
+        move_pitch (int, optional): Pitch angle for performing the movement. Defaults to 0.
+    """
+    rospy.wait_for_service('move')
 
-say_hello = String()
-say_hello.data = "\\RSPD=65\\Hi, I am Pepper and I am goingo to detect the objects on this desk"
-speech_request = SpeechRequest(say_hello)
-speech(speech_request)
+    if (position == "left")
+        move_request = MoveRequest(0, -move_pitch)
+    else if (position == "front")
+        move_request = MoveRequest(0, 0)
+    else if (position == "right")
+        move_request = MoveRequest(0, move_pitch)
+    
+    move_response = move(move_request)
+    rospy.loginfo("Position locked!")
 
-# MOVE LEFT
-rospy.wait_for_service('move')
-move_request = MoveRequest(0, -move_pitch)
-move_response = move(move_request)
-rospy.loginfo("Position locked!")
+if __name__ == "__main__":
 
-takePicture_getDetection('left', detections)
+    rospy.init_node("Pepper_test")
+    # Servers' Initialization:
+    move = rospy.ServiceProxy('move', Move)
+    take_picture = rospy.ServiceProxy('take_pic', TakePic)
+    detect_picture = rospy.ServiceProxy('detect_pic', Detect)
+    speech = rospy.ServiceProxy('speech', Speech)
 
-# MOVE FRONT
-rospy.wait_for_service('move')
-move_request = MoveRequest(0, 0)
-move_response = move(move_request)
-rospy.loginfo("Position locked!")
+    # Utils Variable:
+    move_pitch = 0.4
+    detections = {
+        'left': [],
+        'front': [],
+        'right': []
+    }
 
-takePicture_getDetection('front', detections)
+    # Pepper greets 
+    say_hello = String()
+    say_hello.data = "\\RSPD=65\\Hi, I am Pepper and I am going to detect the objects on this desk"
+    speech_request = SpeechRequest(say_hello)
+    speech(speech_request)
 
-# MOVE RIGHT
-rospy.wait_for_service('move')
-move_request = MoveRequest(0, move_pitch)
-move_response = move(move_request)
-rospy.loginfo("Position locked!")
+    # MOVE HEAD LEFT and Perform Detection
+    move_head("left", move_pitch)
+    takePicture_getDetection('left', detections)
 
-takePicture_getDetection('right', detections)
+    # MOVE HEAD FRONT and Perform Detection
+    move_head("front")
+    takePicture_getDetection('front', detections)
 
-# MOVE FRONT
-rospy.wait_for_service('move')
-move_request = MoveRequest(0, 0)
-move_response = move(move_request)
-rospy.loginfo("Ready to Speech!")
+    # MOVE HEAD RIGHT and Perform Detection
+    move_head("right", move_pitch)
+    takePicture_getDetection('right', detections)
 
-# SPEECH
-speech_request = SpeechRequest(compose_msg(detections))
-rospy.wait_for_service('speech')
-speech_response = speech(speech_request)
+    # MOVE FRONT for returning to standard pose
+    move_head("front")
 
-rospy.spin()
+    # SPEECH detection results
+    speech_request = SpeechRequest(compose_msg(detections))
+    rospy.wait_for_service('speech')
+    speech_response = speech(speech_request)
+
+    rospy.spin()

@@ -66,6 +66,14 @@ python pepper_test.py
 
 ### Bag File
 
+It has been using bag file for recording the topic informations during the Pepper normal esecution. In this way, despite it has not been possible to have a constantly access to robot Pepper, it was possible to test a part of code offline: in particular, the parts of image acquisition and detection.
+
 ```bash
-rosbag record --all --duration=5m
+rosbag record --all --duration=2m
+```
+
+For starting the tests:
+
+```bash
+rosbag play bag_file
 ```

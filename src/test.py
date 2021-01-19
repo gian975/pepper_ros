@@ -14,15 +14,14 @@ import numpy as np
 rospy.init_node("Pepper_test")
 
 
-move = rospy.ServiceProxy('move', Move)
+# move = rospy.ServiceProxy('move', Move)
 take_picture = rospy.ServiceProxy('take_pic', TakePic)
 detect_picture = rospy.ServiceProxy('detect_pic', Detect)
-# rospy.set_param("resolution", 2)
 
-rospy.wait_for_service('move')
-move_request = MoveRequest(0, 0)
-move_response = move(move_request)
-rospy.loginfo("Position locked!")
+# rospy.wait_for_service('move')
+# move_request = MoveRequest(0, 0)
+# move_response = move(move_request)
+# rospy.loginfo("Position locked!")
 
 pic_request = TakePicRequest()
 rospy.wait_for_service('take_pic')

@@ -10,8 +10,8 @@ class HeadController(NaoqiNode):
     """
     This is a class that represents a server for moving Pepper head
     """
-    def __init__(self):
-        NaoqiNode.__init__(self, action = '/pepper_robot/pose/joint_angles_action', "naoqi_headController")
+    def __init__(self, action = '/pepper_robot/pose/joint_angles_action'):
+        NaoqiNode.__init__(self, "naoqi_headController")
         self.client = actionlib.SimpleActionClient(action, JointAnglesWithSpeedAction)
         self.client.wait_for_server()
         self.srv = rospy.Service('move', Move, self.handleMove)
