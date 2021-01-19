@@ -44,6 +44,7 @@ roslaunch pepper_bringup pepper_full_py.launch nao_ip:=10.0.1.230
 ### Launch custom nodes
 
 Following commands has to be launched in a new terminal window, opened in workspace directory.
+Before launching nodes, it is important to verify that actual Pepper ip is 10.0.1.230: if it does not correspond, update the actual ip within speech_controller_node.py.
 
 ```bash
 source devel/setup.bash
