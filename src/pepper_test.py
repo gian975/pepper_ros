@@ -81,11 +81,11 @@ def move_head(position, move_pitch = 0):
     """
     rospy.wait_for_service('move')
 
-    if (position == "left")
+    if (position == "left"):
         move_request = MoveRequest(0, -move_pitch)
-    else if (position == "front")
+    elif (position == "front"):
         move_request = MoveRequest(0, 0)
-    else if (position == "right")
+    elif (position == "right"):
         move_request = MoveRequest(0, move_pitch)
     
     move_response = move(move_request)
@@ -130,7 +130,8 @@ if __name__ == "__main__":
     move_head("front")
 
     # SPEECH detection results
-    speech_request = SpeechRequest(compose_msg(detections))
+    speech_request = SpeechRequest()
+    speech_request.msg.data = compose_msg(detections)
     rospy.wait_for_service('speech')
     speech_response = speech(speech_request)
 

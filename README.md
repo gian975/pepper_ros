@@ -17,7 +17,6 @@ Open a terminal in workspace directory and perform these operations.
 
 ```bash
 cd src
-git clone https://github.com/ros-naoqi/pepper_robot
 git clone https://github.com/ros-naoqi/naoqi_bridge
 git clone https://github.com/ros-naoqi/naoqi_bridge_msgs
 git clone https://github.com/Kukanani/vision_msgs.git

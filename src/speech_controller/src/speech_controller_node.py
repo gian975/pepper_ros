@@ -9,6 +9,7 @@ class NaoquiAnimatedSpeech(NaoqiNode):
     """
     def __init__(self):
         NaoqiNode.__init__(self, 'animated_speech')
+        self.pip = "10.0.1.230"
         self.connectNaoQi()
 
     def handleSayServ(self, req):
